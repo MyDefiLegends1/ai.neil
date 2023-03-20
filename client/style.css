@@ -198,26 +198,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.search-input{
-  font-family: var(--Roboto);
-  font-size: 1.1rem;
-  width: 100%;
-  outline: 0;
-  padding: 0.6rem 0;
-  border: none;
-}
-.search-input::placeholder{
-  text-transform: capitalize;
-}
-.search-btn{
-  width: 40px;
-  font-size: 1.1rem;
-  color: var(--dark);
-  border: none;
-  background: transparent;
-  outline: 0;
-  cursor: pointer;
-}
 
 /* design */
 .design{
@@ -292,77 +272,6 @@ body {
   text-transform: capitalize;
   font-family: var(--Playfair);
 }
-
-/* blog */
-.blog{
-  background: #f9f9f9;
-  padding: 4.5rem 0;
-}
-.blog-content{
-  margin: 2rem 0;
-}
-.blog-img{
-  position: relative;
-}
-.blog-img span{
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: var(--exDark);
-  color: #fff;
-  font-size: 1.4rem;
-  padding: 0.3rem 0.6rem;
-}
-.blog-text{
-  margin: 2.2rem 0;
-  padding: 0 1rem;
-}
-.blog-text span{
-  font-weight: 300;
-  display: block;
-  padding-bottom: 0.5rem;
-}
-.blog-text h2{
-  font-family: var(--Playfair);
-  padding: 1rem 0;
-  font-size: 1.65rem;
-  font-weight: 500;
-}
-.blog-text p{
-  font-weight: 300;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  padding-bottom: 1.2rem;
-}
-.blog-text a{
-  font-family: var(--Roboto);
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: var(--dark);
-  display: inline-block;
-  background: var(--dark);
-  color: #fff;
-  padding: 0.55rem 1.2rem;
-  transition: all 0.5s ease;
-}
-.blog-text a:hover{
-  background: var(--exDark);
-}
-
-/* about */
-.about{
-  padding: 4.5rem 0;
-}
-.about-text{
-  margin: 2rem 0;
-}
-.about-text > p{
-  font-size: 1.1rem;
-  padding: 0.6rem 0;
-  opacity: 0.8;
-}
-
-
 
 /* Media Queries */
 @media screen and (min-width: 540px){
@@ -500,18 +409,6 @@ body {
   }
 }
 
-@media screen and (min-width: 992px){
-  .blog-content{
-      grid-template-columns: repeat(3, 1fr);
-  }
-  .about-content{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 3rem;
-      align-items: center;
-  }
-}
-
 @media screen and (min-width: 1200px){
   .design-content{
       grid-template-columns: repeat(3, 1fr);
@@ -551,8 +448,8 @@ button {
 }
 
 form img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 40px;
 }
 
 script[src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592814778191453"] {
