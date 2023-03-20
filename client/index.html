@@ -40,6 +40,60 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<div class="container">
+  <h2>Frequently Asked Questions</h2>
+  <div class="accordion">
+    <div class="accordion-item">
+      <button aria-expanded="false"><span class="accordion-title">How many weeks in a year?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button aria-expanded="false"><span class="accordion-title">Where am i?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button aria-expanded="false"><span class="accordion-title">What is my ip address?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button aria-expanded="false"><span class="accordion-title">What time is it?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button aria-expanded="false"><span class="accordion-title">How to screenshot?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const items = document.querySelectorAll(".accordion button");
+
+  function toggleAccordion() {
+    const itemToggle = this.getAttribute('aria-expanded');
+    
+    items.forEach(item => {
+      item.setAttribute('aria-expanded', 'false');
+    })
+    
+    if (itemToggle == 'false') {
+      this.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592814778191453"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -121,7 +175,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-1.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 01</span>
                 <span>Math</span>
               </div>
               <div class = "design-title">
@@ -133,7 +187,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-2.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 02</span>
                 <span>Essay</span>
               </div>
               <div class = "design-title">
@@ -145,7 +199,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-3.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 03</span>
                 <span>Is it free</span>
               </div>
               <div class = "design-title">
@@ -157,7 +211,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-4.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 04</span>
                 <span>Does it plagiarize</span>
               </div>
               <div class = "design-title">
@@ -169,7 +223,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-5.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 05</span>
                 <span>Can I use tagalog</span>
               </div>
               <div class = "design-title">
@@ -181,7 +235,7 @@
             <div class = "design-item">
               <div class = "design-img">
                 <img src = "images/art-design-6.jpg" alt = "">
-                <span><i class = "far fa-heart"></i> 22</span>
+                <span><i class = "far fa-heart"></i> 06</span>
                 <span>Is it safe</span>
               </div>
               <div class = "design-title">
@@ -206,104 +260,6 @@
  <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
  </script>
-  
-      <!-- blog -->
-      <section class = "blog" id = "blog">
-        <div class = "container">
-          <div class = "title">
-            <h2>Latest Blog</h2>
-            <p>recent blogs about Bing</p>
-          </div>
-          <div class = "blog-content">
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-1.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>Join our Community</h2>
-                <p>You can join our telegram community.</p>
-                <a href = "https://t.me/bingblongai">Join</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-2.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>Can i download the app</h2>
-                <p>Yes Bing is available in the Playstore</p>
-                <a href = "https://play.google.com/store/apps/details?id=com.bing.blong">Download</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-3.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>Can i use Bing at all</h2>
-                <p>Yes Bing is available 24/7</p>
-                <a href = "#">Read More</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-4.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>How accurate is Bing</h2>
-                <p>Bing uses the latest version of AI Models</p>
-                <a href = "#">Read More</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-5.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>Can i ask anything</h2>
-                <p>Yes ,but there is limitations in terms of ethicality</p>
-                <a href = "#">Read More</a>
-              </div>
-            </div>
-            <!-- end of item -->
-            <!-- item -->
-            <div class = "blog-item">
-              <div class = "blog-img">
-                <img src = "images/blog-p-6.jpg" alt = "">
-                <span><i class = "far fa-heart"></i></span>
-              </div>
-              <div class = "blog-text">
-                <span>20 March, 2023</span>
-                <h2>Where is Bing created</h2>
-                <p>Proudly made in the Philippines</p>
-                <a href = "#">Read More</a>
-              </div>
-            </div>
-            <!-- end of item -->
-          </div>
-        </div>
-      </section>
-      <!-- end of blog -->
-  
 
 <!-- center -->
 <ins class="adsbygoogle"
