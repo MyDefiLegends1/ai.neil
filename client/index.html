@@ -10,16 +10,18 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
+  gtag('js', new Date()); 
+  
   gtag('config', 'G-1231QLWQ18');
 </script>
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bing - Your Filipino AI</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="messagenote">
       Scroll down to see the chat box.
@@ -35,9 +37,11 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
 <div class="containers">
-  <h2>Frequently Asked Questions</h2>
+  <div class="bongers"></div>
+  <div class="messagenotes">
+  <p><h2>Frequently Asked Questions</h2></p>
+</div>
   <div class="accordion">
     <div class="accordion-item">
       <button aria-expanded="false"><span class="accordion-title">What is Bing Blong</span><span class="icon" aria-hidden="true"></span></button>
@@ -76,10 +80,8 @@
     </div>
   </div>
 </div>
-
 <script>
   const items = document.querySelectorAll(".accordion button");
-
   function toggleAccordion() {
     const itemToggle = this.getAttribute('aria-expanded');
     
@@ -91,10 +93,8 @@
       this.setAttribute('aria-expanded', 'true');
     }
   }
-
   items.forEach(item => item.addEventListener('click', toggleAccordion));
 </script>
-
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592814778191453"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -106,23 +106,18 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-    
- 
-    <div id="app">
-      <div id="chat_container"></div>
 
-      <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Click here to Ask Bing..."></textarea>
-        <button type="submit"><img src="assets/send.svg" alt="send" />
-      </form>
-    </div>
+ <div id="app"> 
+       <div id="chat_container"></div>
+            <form><textarea name="prompt" rows="1" cols="1" placeholder="Click here to Ask Bing..."></textarea>
+                          <button type="submit"><img src="assets/send.svg" alt="send" /></form>
+ </div>
     <div class="website">
       <div class="px-3 pt-2 pb-3 text-xs text-white/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
         <p>If you have a concern or cant access BING<a class="download-links" href="https://t.me/BingBlongAI">Join</a>
           to our Telegram</p> 
    <br><p>Click <a class="download-link" href="https://play.google.com/store/apps/details?id=com.bing.blong">here</a>
     if you want to download Bing in Playstore.</p> </br> 
-
     <script>
      function copyText() {
        const textToCopy = '09760376093';
@@ -130,10 +125,8 @@
        alert('Text copied to clipboard!');
      }
    </script>
-
       </div>
     </div>
-
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592814778191453"
     crossorigin="anonymous"></script>
 <!-- ad1 -->
@@ -148,15 +141,13 @@
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592814778191453"
      crossorigin="anonymous"></script>
-
      <div class = "banner">
       <div class = "container">
         <h1 class = "banner-title">
           <span>Bing.</span> Blong Blog
         </h1>
         <p>everything that you want to know about Bing</p>
-        <form>
-          <input type = "text" class = "search-input" placeholder="find your questions . . .">
+        <form> <input type = "text" class = "search-input" placeholder="find your questions . . .">
           <button type = "submit" class = "search-btn">
             <i class = "fas fa-search"></i>
           </button>
